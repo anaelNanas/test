@@ -57,13 +57,13 @@ function App() {
           </div>
           <div className="w-100 m-5 p-5">
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/admin" element={<Admin />} />
-              <Route path="/contacts" element={<Contacts />} />
-              <Route path="/portofolio" element={<Portofolio />} />
-              <Route path="/outils" element={<Outils outilList={outilList}/>} />
-              <Route path="/signIn" element={<SignIn />} />
-              <Route path="/outils/:id" element={<DetailOutil outilList={outilList}/>} />
+              <Route path="/test/" element={<Home />} />
+              <Route path="/test/admin" element={<Admin />} />
+              <Route path="/test/contacts" element={<Contacts />} />
+              <Route path="/test/portofolio" element={<Portofolio />} />
+              <Route path="/test/outils" element={<Outils outilList={outilList}/>} />
+              <Route path="/test/signIn" element={<SignIn />} />
+              <Route path="/test/outils/:id" element={<DetailOutil outilList={outilList}/>} />
             </Routes>
           </div>
         </main>

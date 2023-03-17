@@ -2,7 +2,7 @@
   "name": "projet-paille-react-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anaelNanas.github.io/test",
+  "homepage": "https://anaelNanas.github.io",
   "dependencies": {
     "@types/node": "^18.14.1",
     "@types/react": "^18.0.28",

@@ -48,7 +48,7 @@ function App() {
   //postData('http://localhost:3005/api/customers', nouveauUser, lol);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/test" >
     {/* <listOutilsContext.Provider value={[outilList, setOutilList]}> */}
         <Header/>
         <main className="d-flex align-items-stretch" style={{"minHeight": "100vh"}}>
